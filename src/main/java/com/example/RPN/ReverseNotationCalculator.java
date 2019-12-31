@@ -29,8 +29,8 @@ public class ReverseNotationCalculator {
                 || "/".equals(element);
     }
 
-    private static int calculate(String operand, Integer a, Integer b) {
-        switch (operand) {
+    private static int calculate(String operator, Integer a, Integer b) {
+        switch (operator) {
             case "+":
                 return b + a;
             case "-":
